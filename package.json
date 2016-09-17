@@ -4,7 +4,7 @@
   "description": "Trying circleCI as continious integration, delivery service",
   "main": "index.js",
   "scripts": {
-    "test": "tape tests/**/*.js"
+    "test": "tape tests/**/*.js | tap-xunit | xunit-junit $CIRCLE_TEST_REPORTS"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/marlass/learn-circleci#readme",
   "devDependencies": {
-    "tape": "^4.6.0"
+    "tap-xunit": "^1.4.0",
+    "tape": "^4.6.0",
+    "xunit-junit": "^1.0.6"
   }
 }

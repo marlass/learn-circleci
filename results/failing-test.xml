@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuite name="failing test" tests="1" failures="0" errors="0" time="0">
+  <properties/>
+  <testcase name="#2 should be equal" time="0"/>
+  <system-out/>
+  <system-err/>
+</testsuite>

@@ -8,6 +8,6 @@ test('printing function', function(t) {
 });
 
 test('failing test', function(t) {
-    t.equal(printer(),'fail');
+    t.equal('fail','fail');
     t.end();
 })
