@@ -1,0 +1,22 @@
+{
+  "name": "learn-circleci",
+  "version": "1.0.0",
+  "description": "Trying circleCI as continious integration, delivery service",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marlass/learn-circleci.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marlass/learn-circleci/issues"
+  },
+  "homepage": "https://github.com/marlass/learn-circleci#readme",
+  "devDependencies": {
+    "tape": "^4.6.0"
+  }
+}
