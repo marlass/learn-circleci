@@ -13,4 +13,5 @@ test('testFunction false', function(t) {
     t.equal(testFunction(0), 'foo');
     t.end();
 })
+
 }
