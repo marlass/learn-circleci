@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/marlass/learn-circleci#readme",
   "devDependencies": {
+    "istanbul": "^0.4.5",
     "tap-xunit": "^1.4.0",
     "tape": "^4.6.0",
     "xunit-junit": "^1.0.6"
