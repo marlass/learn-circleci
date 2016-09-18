@@ -3,6 +3,5 @@ module.exports = function testFunction(a) {
         return 'blob';
     } else {
         return 'foo';
-    }    
-    return 'yo';
+    }
 }
