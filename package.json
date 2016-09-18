@@ -4,8 +4,9 @@
   "description": "Trying circleCI as continious integration, delivery service",
   "main": "index.js",
   "scripts": {
-    "test": "tape tests/**/*.js | tap-xunit | xunit-junit $CIRCLE_TEST_REPORTS",
-    "coverage": "istanbul cover tests/index.js"
+    "test-ci": "tape tests/tests.js | tap-xunit | xunit-junit $CIRCLE_TEST_REPORTS",
+    "coverage": "istanbul cover tests/tests.js",
+    "test": "tape ./tests/tests.js"
   },
   "repository": {
     "type": "git",

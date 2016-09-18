@@ -1,6 +1,6 @@
 test:
     post:
-      - npm run test
+      - npm run test-ci
       - npm run coverage
 general:
   artifacts:
